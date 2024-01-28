@@ -66,7 +66,7 @@ main {
 .weather-app-details {
   font-size: 16px;
   line-height: 20px;
-  color: rgba(102, 94, 174, 0.7);
+  color: rgba(102, 94, 174, 0.6);
 }
 .weather-app-details strong {
   color: rgb(246, 82, 130);
@@ -82,7 +82,7 @@ main {
 .weather-app-icon {
   position: relative;
   top: -5px;
-  font-size: 45px;
+  font-size: 75px;
   margin-right: 1px;
 }
 .weather-app-temp-value {
