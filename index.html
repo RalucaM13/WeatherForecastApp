@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="src/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,12 +17,13 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city"
             required
-            class="search-form-input" />
+            class="search-form-input"
+            id="search-box" />
 
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -29,7 +31,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">Paris</h1>
+            <h1 class="weather-app-city" id="city">Paris</h1>
             <p class="weather-app-details">
               Sunday 13:02, scattered clouds <br />
               Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
@@ -58,5 +60,6 @@
         >
       </footer>
     </div>
+    <script src="src/functions.js"></script>
   </body>
 </html>
