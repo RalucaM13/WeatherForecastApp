@@ -67,16 +67,14 @@ main {
   color: rgba(47, 6, 78, 0.9);
 }
 .time {
-  color: rgba(47, 6, 78, 0.5);
+  color: rgba(4, 50, 103, 0.8);
 }
 .weather-app-details {
   font-size: 16px;
   line-height: 20px;
-  color: rgba(102, 94, 174, 0.6);
+  color: rgba(4, 50, 103, 0.8);
 }
-.condition {
-  color: rgba(4, 50, 103, 0.2);
-}
+
 .weather-app-details strong {
   color: rgb(246, 82, 130);
 }
