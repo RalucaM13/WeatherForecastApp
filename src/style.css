@@ -27,11 +27,11 @@ footer {
 }
 .search-form-input {
   font-family: "Oswald", sans-serif;
-  background: rgba(67, 180, 39, 0.9);
+  background: rgba(96, 85, 194, 0.5);
   padding: 15px;
   margin: 5px auto;
   border-radius: 6px;
-  box-shadow: 0 5px 10px rgba(96, 85, 194, 0.5);
+  box-shadow: 0 5px 10px rgba(7, 6, 47, 0.8);
   font-size: 15px;
   border: none;
   width: 75%;
