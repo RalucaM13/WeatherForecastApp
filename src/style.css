@@ -49,6 +49,7 @@ footer {
   box-shadow: 0 5px 10px rgba(7, 6, 47, 0.8);
   width: 20%;
 }
+
 main {
   padding: 30px 0;
 }
@@ -65,7 +66,7 @@ main {
 .weather-app-details {
   font-size: 16px;
   line-height: 20px;
-  color: rgba(47, 6, 78, 0.9);
+  color: rgba(102, 94, 174, 0.7);
 }
 .weather-app-details strong {
   color: rgb(246, 82, 130);
